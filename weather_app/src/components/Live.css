@@ -1,0 +1,138 @@
+.live__container{
+    position: absolute;
+    min-height: 800px;
+    z-index: 1;
+    padding:0 120px 0 80px ;
+    top:65%;
+    width: 100%;
+    background-color:#1e202b ;
+}
+.live__cameras{
+    margin-top:400px;
+}
+.live__title{
+    font-size: 2rem;
+    color:white;
+}
+.live__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    overflow-x: hidden;
+    grid-column-gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.live__card{
+    width: 100%;
+}
+.img{
+    width: 100%;
+    object-fit: contain;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 300;
+}
+.date{
+    color:#8b8e95;
+}
+.live__news{
+ padding:20px;
+  height: 500px;
+  margin-top: 50px;
+  display: flex;
+  background-color:#272936 ;
+}
+.live__news-left{
+    width: 50%;
+    overflow-y: scroll;
+}
+.link__container{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.live__news-link{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+.news__image{
+    width: 100px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:rgb(226, 19, 19);
+}
+a:hover{
+    text-decoration: underline;
+}
+.resource{
+    color:#9d9d9f;
+    font-size: 14px;
+}
+.description{
+    font-size: 1rem;
+    color:white;
+    margin-top: 8px;
+}
+.live__news-right{
+    width: 50%;
+    padding:0 30px;
+}
+.live__news-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 10px;
+}
+.grid__photos{
+    width: 100%;
+}
+.grid__photo{
+    width: 100%;
+}
+.live__bottom{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.live__search{
+    position: relative;
+    display: flex;
+    width: 60%;
+    border-radius: 25px; 
+}
+.input__sub{
+    width: 100%;
+    border:1px solid white;
+}
+.serach__btn-bottom{
+  position: absolute;
+  margin: 3px;
+  right:0%;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  text-align: center;
+  padding: 18px 30px 18px 30px;
+  border-radius: 25px;
+  background: #009ad8;
+  color: white;
+  top:0;
+  bottom: 0;
+}
+.live_info{
+    margin-top: 20px;
+    text-align: center;
+    color:#009ad8;
+}

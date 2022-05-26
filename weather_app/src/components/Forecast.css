@@ -1,0 +1,154 @@
+.forecast__container{
+    position: absolute;
+    top:45%;
+    left: 15%;
+    z-index: 2;
+    right:2%;
+    transform:translate(-10%);
+    padding:20px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+    border-radius: 20px;
+    min-height: 450px;
+    background-color: #d9dae2;
+}
+.forecast__card1{
+    position: relative;
+}
+.row1{
+    display: flex;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    margin-top: 10px;
+}
+.card1__detail{
+    position: absolute;
+    padding:10px 15px;
+    bottom:0;
+    left:0;
+    height: 120px;
+    width: 100%;
+    background: rgb(34, 34, 34);
+}
+.detail__header{
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 20px;
+    color:white;
+    margin-left: 10px;
+    font-weight: initial;
+}
+.detail__temp{
+    font-size: 2.5em;
+    color: white;
+    font-weight: 700;
+}
+.forecast__card2{
+    z-index: -2;
+}
+.layer{
+    height: 98%;
+    width: 100%;
+    background-color:rgba(0,0,0,.45);
+}
+.card2__detail{
+    padding:10px 15px;
+}
+.forecast__week{
+    padding:8px 5px;
+    width: 100%;
+    color:white;
+    background-image: linear-gradient(to bottom ,#492f16,#060502);
+}
+.forecast__title{
+   font-weight: 400;
+   font-size: 15px;
+   border-bottom: 1px solid #8d7166;
+}
+.forecast__day{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px ;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #2e2d2a;
+}
+.forecast__day > img{
+    width: 30px;
+}
+.color{
+    color:#2196f3;
+}
+
+.forecast__card3{
+  padding:10px;
+}
+.divider{
+    height: 10px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #323b4f;
+}
+.card3__detail{
+    background-image: linear-gradient(to bottom,#383f51,#120d0d,#363a4b);
+    margin-top: 10px;
+    padding:10px;
+    height: 220px;
+}
+.detail__title{
+    font-size: 20px;
+    font-weight: 300;
+    color:#dadadd;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #767b87;
+}
+.detail__info{
+    display: flex;
+}
+.left{
+    width: 40%;
+    margin-top: 30px;
+}
+.right{
+    width: 60%;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    border-bottom: 1px dotted #4f4e59;
+}
+p{
+    color:#8a8a94;
+    font-size: 12px;
+}
+.number{
+    color:#efefef;
+}
+.forecast__card4{
+    z-index: -2;
+}
+.layer2{
+    height: 90%;
+    width: 100%;
+    background-color: rgba(0,0,0,.45);
+}
+.map{
+    margin-top: 110px;
+    padding:10px;
+    background-image: linear-gradient(to bottom,#1a150f,#0a0b12,#461d05);
+    height: 250px;
+}
+.image__map{
+    padding:20px 0 ;
+}

@@ -1,0 +1,49 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.app{
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow-y: scroll;
+}
+.app__search{
+  min-height: 350px;
+  padding:70px 80px;
+  background-size: cover;
+  background-position: center;
+}
+.search__container{
+  position: relative;
+  display: flex;
+  width: 100%;
+  border-radius: 25px;
+}
+input{
+  width: 93%;
+  padding: 20px 50px 20px 20px;
+  background: #1e202b;
+  color: white;
+  border: none;
+  outline:none;
+  border-radius: 25px;
+
+}
+.serach__btn{
+  position: absolute;
+  margin: 3px;
+  right:7%;
+  border: none;
+  outline:none;
+  cursor: pointer;
+  text-align: center;
+  padding: 18px 50px 18px 50px;
+  border-radius: 25px;
+  background: #009ad8;
+  color: white;
+  top:0;
+  bottom: 0;
+}
